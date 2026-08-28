@@ -15,6 +15,10 @@ app.get("/jsonData", (req, res) => {
   res.send("Json Data from json malu mafi 😂🫡 ");
 });
 
+app.get('/',(req,res) =>{
+    res.send("This is for github commit ");
+})
+
 const user = [
     {id:1,name:"Mafi",email:"m@gamil.com"},
     {id:2,name:"Mafi",email:"m@gamil.com"},
