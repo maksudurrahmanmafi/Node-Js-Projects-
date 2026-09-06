@@ -89,7 +89,7 @@ run().catch(console.dir);
 
 // Express Routes
 app.get("/", (req, res) => {
-  res.send("Server is runninggggggg");
+  res.send("Server is runninggggggg from index.js");
 });
 
 // Start Server
