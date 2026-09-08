@@ -1,19 +1,12 @@
-
-import './App.css'
-import Users from './components/Users'
-
-function App() {
-
-
+import "./App.css";
+import Users from "./components/Users";
+const App = () => {
   return (
-    <>
-    <h2>
-      CURD Operation
-    </h2>
-    <Users />
+    <div>
+      {" "}
+      <Users />{" "}
+    </div>
+  );
+};
 
-</>
-  )
-}
-
-export default App
+export default App;
