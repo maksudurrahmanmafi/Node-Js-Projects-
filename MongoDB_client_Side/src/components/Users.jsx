@@ -14,7 +14,7 @@ const Users = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        alert("User added successfully!");
+        alert("User added successfully! to the database");
         form.reset();
       })
       .catch((error) => {
