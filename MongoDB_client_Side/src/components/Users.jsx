@@ -1,3 +1,4 @@
+import User from "./User";
 
 const Users = () => {
   const handleSubmit = (e) => {
@@ -32,6 +33,7 @@ const Users = () => {
         <input type="email" name="email" placeholder="Enter Email" required />{" "}
         <br /> <br /> <input type="submit" value="Submit" />{" "}
       </form>{" "}
+      <User />{" "}
     </div>
   );
 };
