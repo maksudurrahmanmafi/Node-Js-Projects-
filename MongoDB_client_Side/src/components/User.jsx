@@ -3,7 +3,7 @@ const User = () => {
     <div className="aura text-orange-600">
       <div className="card bg-base-100 text-base-content">
         <div className="card-body">
-          <p>This card has custom color aura</p>
+          <p>Submit</p>
         </div>
       </div>
     </div>
