@@ -35,6 +35,10 @@ async function run() {
     // await client.close();
   }
 }
+
+function sum (){
+    return 5+5;
+}
 run().catch(console.error);
 app.listen(port, (req, res) => {
   console.log(`Server is running on port ${port}`);
