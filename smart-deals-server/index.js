@@ -39,6 +39,10 @@ async function run() {
 function sum (){
     return 5+5;
 }
+function sum_2 (){
+    return 5+5;
+}
+sum_2();
 
 sum();
 run().catch(console.error);
