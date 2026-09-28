@@ -3,8 +3,8 @@ const cors = require("cors");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const app = express();
 //middleware
-app.use(cors());
-app.use(express.json());
+app.use(cors());//Middleware for cross-origin resource sharing
+app.use(express.json());//Middleware for parsing JSON request bodies
 
 const uri =
   "mongodb+srv://smartdb:SmartDB2026Pass@smartdb.ld4whe7.mongodb.net/?appName=smartdb";
